@@ -23,15 +23,28 @@ class LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {
         int startingChar = Character.valueOf('a');
         List<String> currentStringList = new ArrayList<>();
+        if (digits.length() == 0) {
+            return currentStringList;
+        }
         currentStringList.add("");
         for (int i = 0; i < digits.length(); i++) {
-            for (String currentString : currentStringList) {
-                int currentDigitStartingLetter = (Integer.valueOf(digits.charAt(i)) - 2) * 3 + startingChar;
-                currentStringList.remove(currentString);
-                currentStringList.add(currentString + Character.getName(currentDigitStartingLetter));
-                currentStringList.add(currentString + Character.getName(currentDigitStartingLetter + 1));
-                currentStringList.add(currentString + Character.getName(currentDigitStartingLetter + 2));
+            List<String> newStringList = new ArrayList<>();
+            for (int j = 0; j < currentStringList.size(); j++) {
+                String currentString = currentStringList.get(j);
+                int currentDigit = Integer.valueOf(String.valueOf(digits.charAt(i)));
+                int currentDigitStartingLetter;
+                if (currentDigit <= 7)
+                    currentDigitStartingLetter = (currentDigit - 2) * 3 + startingChar;
+                else
+                    currentDigitStartingLetter = (currentDigit - 2) * 3 + 1 + startingChar;
+                newStringList.add(currentString + String.valueOf((char) currentDigitStartingLetter));
+                newStringList.add(currentString + String.valueOf((char) (currentDigitStartingLetter + 1)));
+                newStringList.add(currentString + String.valueOf((char) (currentDigitStartingLetter + 2)));
+                if (currentDigit == 7 || currentDigit == 9) {
+                    newStringList.add(currentString + String.valueOf((char) (currentDigitStartingLetter + 3)));
+                }
             }
+            currentStringList = newStringList;
         }
         return currentStringList;
     }
