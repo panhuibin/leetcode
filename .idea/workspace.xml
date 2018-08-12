@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LetterCombinationsOfAPhoneNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LetterCombinationsOfAPhoneNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="35" selection-start-line="35" selection-end-line="38" selection-end-column="91" />
+            <state relative-caret-position="210">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,13 +52,92 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LongestPalindromicSubstringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/LongestPalindromicSubstringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveNthNodeFromEndOfList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+              <folding>
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeSumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveNthNodeFromEndOfListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="525" column="20" selection-start-line="525" selection-start-column="20" selection-end-line="525" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbersTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -286,7 +369,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LongestSubstringWithoutRepeatingCharactersTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LongestSubstringWithoutRepeatingCharactersTest.java" />
@@ -302,6 +384,12 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java" />
       </list>
     </option>
   </component>
@@ -348,6 +436,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -357,6 +453,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="RemoveNthNodeFromEndOfList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -427,6 +532,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="medium" />
     </key>
@@ -443,7 +551,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LetterCombinationsOfAPhoneNumberTest.letterCombinations">
+  <component name="RunManager" selected="JUnit.RemoveNthNodeFromEndOfListTest.removeNthFromEnd">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -451,7 +559,7 @@
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,7 +582,7 @@
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -483,29 +591,6 @@
       <option name="PACKAGE_NAME" value="medium" />
       <option name="MAIN_CLASS_NAME" value="medium.LetterCombinationsOfAPhoneNumberTest" />
       <option name="METHOD_NAME" value="letterCombinations" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LongestPalindromicSubstringTest.longestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.LongestPalindromicSubstringTest" />
-      <option name="METHOD_NAME" value="longestPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -539,11 +624,34 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ThreeSumTest.threeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.RemoveNthNodeFromEndOfListTest" />
+      <option name="METHOD_NAME" value="removeNthFromEnd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ThreeSumTest.threeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -619,19 +727,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindrome" />
       <item itemvalue="JUnit.RegularExpressionMatchingTest.isMatch" />
       <item itemvalue="JUnit.ContainerWithMostWaterTest.maxArea" />
       <item itemvalue="JUnit.ThreeSumTest.threeSum" />
       <item itemvalue="JUnit.LetterCombinationsOfAPhoneNumberTest.letterCombinations" />
+      <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest.removeNthFromEnd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest.removeNthFromEnd" />
         <item itemvalue="JUnit.LetterCombinationsOfAPhoneNumberTest.letterCombinations" />
         <item itemvalue="JUnit.ThreeSumTest.threeSum" />
         <item itemvalue="JUnit.ContainerWithMostWaterTest.maxArea" />
         <item itemvalue="JUnit.RegularExpressionMatchingTest.isMatch" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -649,35 +757,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 10h 57m 24s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 05m 31s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 06m 23s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 06m 39s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 06m 56s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 07m 41s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 08m 38s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 11h 10m 05s.xml">
-      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 12h 09m 41s.xml">
       <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 12h 11m 05s.xml">
       <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 15h 23m 56s.xml">
+      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LetterCombinationsOfAPhoneNumberTest_letterCombinations - 2018.08.12 at 15h 24m 16s.xml">
+      <configuration name="LetterCombinationsOfAPhoneNumberTest.letterCombinations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveNthNodeFromEndOfListTest_removeNthFromEnd - 2018.08.12 at 15h 25m 51s.xml">
+      <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveNthNodeFromEndOfListTest_removeNthFromEnd - 2018.08.12 at 15h 29m 05s.xml">
+      <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveNthNodeFromEndOfListTest_removeNthFromEnd - 2018.08.12 at 15h 31m 31s.xml">
+      <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveNthNodeFromEndOfListTest_removeNthFromEnd - 2018.08.12 at 15h 34m 00s.xml">
+      <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveNthNodeFromEndOfListTest_removeNthFromEnd - 2018.08.12 at 15h 34m 57s.xml">
+      <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveNthNodeFromEndOfListTest_removeNthFromEnd - 2018.08.12 at 15h 37m 19s.xml">
+      <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -700,6 +808,7 @@
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25405008" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3293944" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3298193" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -712,7 +821,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -901,8 +1009,68 @@
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="108" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -969,17 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="44" column="27" selection-start-line="16" selection-start-column="8" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1038,13 +1195,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/LongestPalindromicSubstringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -1111,16 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1171,6 +1311,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="525" column="20" selection-start-line="525" selection-start-column="20" selection-end-line="525" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1178,12 +1366,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/LongestPalindromicSubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="35" selection-start-line="35" selection-end-line="38" selection-end-column="91" />
+        <state relative-caret-position="150">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
           </folding>
         </state>
       </provider>
