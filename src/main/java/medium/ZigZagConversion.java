@@ -29,6 +29,32 @@ package medium;
  */
 public class ZigZagConversion {
     public String convert(String s, int numRows) {
-        return null;
+        if (numRows == 1 || numRows >= s.length()) return s;
+        String[] zigzags = new String[numRows];
+        for (int i = 0; i < numRows; i++) {
+            zigzags[i] = "";
+        }
+        boolean isDownward = false;
+        int row = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (row == 0) {
+                isDownward = true;
+            } else if (row == numRows - 1)
+                isDownward = false;
+
+            String currentLetter = s.substring(i, i + 1);
+            zigzags[row] += currentLetter;
+            if (isDownward) {
+                row++;
+            } else {
+                row--;
+            }
+        }
+
+        String output = "";
+        for (String zigzag : zigzags) {
+            output += zigzag;
+        }
+        return output;
     }
 }
