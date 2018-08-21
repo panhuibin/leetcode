@@ -14,6 +14,8 @@ package hard;
  * Output: 6
  */
 public class TrappingRainWater {
+
+
     public int trap(int[] heights) {
         //find the peak and and bottom and peak and bottom and calculate the volume of water inside
         //for the example input, 0->1->:peak1
@@ -23,55 +25,49 @@ public class TrappingRainWater {
         //for each node (peak1+1)->(peak2-1) volume+=(height-nums[j])
         //keep the record of previous peak and recursively find next peak
 
-        return -1;
-        int volume = 0;
-        return trapRecursively(false, heights, volume);
-
+        return trapRecursively(heights, 0);
     }
 
-    private int trapRecursively(boolean ispeak, int[] heights, int volume) {
+    private int trapRecursively(int[] heights, int volume) {
         //water can only be contained when heights has at least 3 items
         if (heights.length < 3) return volume;
-        int firstPeak = -1;
-        int firstPeakIndex = -1;
-        if (!ispeak) {
-            for (int i = 0; i < heights.length - 1; i++) {
-                if (heights[i] > heights[i + 1]) {
-                    //this is the peak;
-                    firstPeakIndex = i;
-                    firstPeak = heights[i];
-                }
-            }
-        } else {
-            firstPeakIndex = 0;
-            firstPeak = heights[0];
+        int[] peaks = findPeaks(heights);
+        int leftPeakIndex = peaks[0];
+        int rightPeakIndex = peaks[1];
+        if (leftPeakIndex == -1 || rightPeakIndex == -1) return volume;
+
+        int waterHeight = Math.min(heights[leftPeakIndex], heights[rightPeakIndex]);
+
+        for (int i = leftPeakIndex + 1; i < rightPeakIndex; i++) {
+            volume += Math.max(0, waterHeight - heights[i]);
         }
 
-        //if firstPeakIndex ==-1, then there's no up and down. it's just up up up up or
-        if (firstPeakIndex == -1) return volume;
-
-        int secondPeak = -1;
-        int secondPeakIndex = -1;
-        for (int i = 1; i < heights.length - 1; i++) {
-            if (heights[i] < heights[i + 1]) {
-                secondPeakIndex = i + 1;
-                secondPeak = heights[i + 1];
-            }
-        }
-
-        // if secondPeakIndex=-1, then there's just down down down down down
-        if (secondPeakIndex == -1) return volume;
-
-        int waterHeight = Math.min(firstPeak, secondPeak);
-
-        for (int i = firstPeakIndex + 1; i < secondPeakIndex; i++) {
-            volume += waterHeight - heights[i];
-        }
-
-        int heightWidth = secondPeakIndex - firstPeakIndex;
-
-        int[] leftOverHeights = new int[heights.length - heightWidth];
-        System.arraycopy(heights, secondPeakIndex, leftOverHeights, 0, heights.length - heightWidth);
-        return trapRecursively(false, leftOverHeights, volume);
+        int[] leftOverHeights = new int[heights.length - rightPeakIndex];
+        System.arraycopy(heights, rightPeakIndex, leftOverHeights, 0, heights.length - rightPeakIndex);
+        return trapRecursively(leftOverHeights, volume);
     }
+
+    public int[] findPeaks(int nums[]) {
+        int leftPeak = -1;
+        int rightPeak = -1;
+
+        for (int i = 1; i < nums.length - 1; i++) {
+             
+            if ((nums[i] > nums[i - 1]) && (nums[i] > nums[i + 1])) {
+                if (leftPeak == -1) leftPeak = i;
+                else rightPeak = i;
+            }
+
+            if (leftPeak != -1 && rightPeak != -1 && nums[rightPeak] >= nums[leftPeak]) {
+                return new int[]{leftPeak, rightPeak};
+            }
+        }
+        if (nums[nums.length - 2] < nums[nums.length - 1]) {
+            if (leftPeak == -1) leftPeak = nums.length - 1;
+            else if (rightPeak == -1) rightPeak = nums.length - 1;
+            else if (nums[nums.length - 1] > nums[rightPeak]) rightPeak = nums.length - 1;
+        }
+        return new int[]{leftPeak, rightPeak};
+    }
+
 }
