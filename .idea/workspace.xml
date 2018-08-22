@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/medium/Permutations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/medium/RotateImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/medium/RotateImageTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" afterPath="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
@@ -64,6 +63,26 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateImage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/RotateImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="76" column="5" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateImageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/RotateImageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -335,8 +354,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/medium/LongestPalindromicSubstringTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/RegularExpressionMatchingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/RegularExpressionMatching.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/ContainerWithMostWaterTest.java" />
@@ -386,6 +403,8 @@
         <option value="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/RotateImageTest.java" />
       </list>
     </option>
   </component>
@@ -537,8 +556,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PermutationsTest.permute">
-    <configuration name="PermutationsTest.permute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RotateImageTest.rotate5">
+    <configuration name="RotateImageTest.rotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="medium.*" />
@@ -549,8 +568,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.PermutationsTest" />
-      <option name="METHOD_NAME" value="permute" />
+      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
+      <option name="METHOD_NAME" value="rotate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -563,19 +582,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImageTest.rotate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="leetcode_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap5" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
+      <option name="METHOD_NAME" value="rotate2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -588,19 +607,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImageTest.rotate3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="leetcode_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap6" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
+      <option name="METHOD_NAME" value="rotate3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -613,19 +632,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImageTest.rotate4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="leetcode_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap7" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
+      <option name="METHOD_NAME" value="rotate4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -638,19 +657,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TrappingRainWaterTest.trap8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImageTest.rotate5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="leetcode_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap8" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
+      <option name="METHOD_NAME" value="rotate5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -817,19 +836,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap5" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap6" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap7" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap8" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PermutationsTest.permute" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate4" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PermutationsTest.permute" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap8" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap7" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap6" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap5" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate5" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate4" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RotateImageTest.rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -850,9 +869,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 10m 12s.xml">
-      <configuration name="PermutationsTest.permute" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 12m 50s.xml">
       <configuration name="PermutationsTest.permute" configurationId="JUnit" />
     </history-entry>
@@ -862,23 +878,26 @@
     <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 14m 19s.xml">
       <configuration name="PermutationsTest.permute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap4 - 2018.08.21 at 17h 18m 44s.xml">
-      <configuration name="TrappingRainWaterTest.trap4" configurationId="JUnit" />
+    <history-entry file="RotateImageTest_rotate - 2018.08.22 at 17h 49m 50s.xml">
+      <configuration name="RotateImageTest.rotate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap5 - 2018.08.21 at 17h 28m 42s.xml">
-      <configuration name="TrappingRainWaterTest.trap5" configurationId="JUnit" />
+    <history-entry file="RotateImageTest_rotate2 - 2018.08.22 at 17h 50m 24s.xml">
+      <configuration name="RotateImageTest.rotate2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap6 - 2018.08.21 at 17h 29m 05s.xml">
-      <configuration name="TrappingRainWaterTest.trap6" configurationId="JUnit" />
+    <history-entry file="RotateImageTest_rotate2 - 2018.08.22 at 17h 51m 44s.xml">
+      <configuration name="RotateImageTest.rotate2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap7 - 2018.08.21 at 17h 30m 19s.xml">
-      <configuration name="TrappingRainWaterTest.trap7" configurationId="JUnit" />
+    <history-entry file="RotateImageTest_rotate3 - 2018.08.22 at 17h 52m 23s.xml">
+      <configuration name="RotateImageTest.rotate3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap8 - 2018.08.21 at 17h 35m 05s.xml">
-      <configuration name="TrappingRainWaterTest.trap8" configurationId="JUnit" />
+    <history-entry file="RotateImageTest_rotate4 - 2018.08.22 at 17h 53m 14s.xml">
+      <configuration name="RotateImageTest.rotate4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap8 - 2018.08.21 at 17h 35m 42s.xml">
-      <configuration name="TrappingRainWaterTest.trap8" configurationId="JUnit" />
+    <history-entry file="RotateImageTest_rotate5 - 2018.08.22 at 17h 53m 36s.xml">
+      <configuration name="RotateImageTest.rotate5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RotateImageTest_rotate5 - 2018.08.22 at 17h 53m 45s.xml">
+      <configuration name="RotateImageTest.rotate5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1423,7 +1442,7 @@
           <option name="timeStamp" value="272" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="273" />
+      <option name="time" value="274" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1477,20 +1496,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/LongestPalindromicSubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1863,6 +1868,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/RotateImageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/RotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
