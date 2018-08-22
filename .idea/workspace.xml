@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/medium/Permutations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" afterPath="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/hard/TrappingRainWaterTest.java" afterPath="$PROJECT_DIR$/src/test/java/hard/TrappingRainWaterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,11 +46,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/Permutations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermutationsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LetterCombinationsOfAPhoneNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -301,8 +335,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/hard/MedianOfTwoSortedArraysTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hard/MedianOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LongestPalindromicSubstringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/RegularExpressionMatchingTest.java" />
@@ -352,6 +384,8 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/TrappingRainWaterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/Permutations.java" />
       </list>
     </option>
   </component>
@@ -477,8 +511,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="hard" />
       <recent name="medium" />
+      <recent name="hard" />
       <recent name="easy" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -503,20 +537,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrappingRainWaterTest.trap8">
-    <configuration name="TrappingRainWaterTest.trap4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PermutationsTest.permute">
+    <configuration name="PermutationsTest.permute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="hard.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="leetcode_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap4" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.PermutationsTest" />
+      <option name="METHOD_NAME" value="permute" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -783,19 +817,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap4" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap5" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap6" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap7" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap8" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap5" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap6" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap7" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap8" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PermutationsTest.permute" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap8" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap7" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap6" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap5" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap4" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PermutationsTest.permute" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap8" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap7" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap6" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TrappingRainWaterTest.trap5" />
       </list>
     </recent_temporary>
   </component>
@@ -816,17 +850,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrappingRainWaterTest_trap - 2018.08.21 at 07h 37m 38s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
+    <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 10m 12s.xml">
+      <configuration name="PermutationsTest.permute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.08.21 at 07h 38m 19s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
+    <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 12m 50s.xml">
+      <configuration name="PermutationsTest.permute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap3 - 2018.08.21 at 07h 38m 30s.xml">
-      <configuration name="TrappingRainWaterTest.trap3" configurationId="JUnit" />
+    <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 13m 13s.xml">
+      <configuration name="PermutationsTest.permute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap4 - 2018.08.21 at 07h 38m 48s.xml">
-      <configuration name="TrappingRainWaterTest.trap4" configurationId="JUnit" />
+    <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 14m 19s.xml">
+      <configuration name="PermutationsTest.permute" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrappingRainWaterTest_trap4 - 2018.08.21 at 17h 18m 44s.xml">
       <configuration name="TrappingRainWaterTest.trap4" configurationId="JUnit" />
@@ -868,7 +902,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -880,7 +914,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5239478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5239478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1370,8 +1404,26 @@
           <properties />
           <option name="timeStamp" value="268" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/Permutations.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/Permutations.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/Permutations.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="270" />
+      <option name="time" value="273" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1425,24 +1477,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/LinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1801,8 +1835,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

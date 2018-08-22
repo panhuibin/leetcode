@@ -52,7 +52,7 @@ public class TrappingRainWater {
         int rightPeak = -1;
 
         for (int i = 1; i < nums.length - 1; i++) {
-             
+
             if ((nums[i] > nums[i - 1]) && (nums[i] > nums[i + 1])) {
                 if (leftPeak == -1) leftPeak = i;
                 else rightPeak = i;
