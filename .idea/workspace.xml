@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/JumpGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="115">
+              <caret line="17" selection-start-line="17" selection-end-line="27" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/JumpGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -135,22 +142,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermutationsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -379,7 +377,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java" />
@@ -430,6 +427,7 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/JumpGame.java" />
       </list>
     </option>
   </component>
@@ -844,9 +842,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RotateImageTest_rotate2 - 2018.08.22 at 17h 51m 44s.xml">
-      <configuration name="RotateImageTest.rotate2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RotateImageTest_rotate3 - 2018.08.22 at 17h 52m 23s.xml">
       <configuration name="RotateImageTest.rotate3" configurationId="JUnit" />
     </history-entry>
@@ -874,6 +869,9 @@
     <history-entry file="MaximumSubarrayTest_maxSubArray2 - 2018.08.22 at 21h 06m 12s.xml">
       <configuration name="MaximumSubarrayTest.maxSubArray2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MaximumSubarrayTest_maxSubArray2 - 2018.08.22 at 21h 07m 10s.xml">
+      <configuration name="MaximumSubarrayTest.maxSubArray2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +894,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32680723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32680723" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
@@ -907,7 +905,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.52259034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52259034" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1482,13 +1480,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/easy/ValidParenthesesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/easy/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1843,8 +1834,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="115">
+          <caret line="17" selection-start-line="17" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
