@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/medium/GroupAnagramsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/leetcode_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/leetcode_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,15 +45,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +66,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="325">
+              <caret line="56" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseInteger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/easy/ReverseInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="25" selection-start-line="25" selection-end-line="36" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSubarrayTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,27 +140,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LetterCombinationsOfAPhoneNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrappingRainWaterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hard/TrappingRainWaterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -382,8 +379,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/medium/ContainerWithMostWaterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/ThreeSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LetterCombinationsOfAPhoneNumberTest.java" />
@@ -433,6 +428,8 @@
         <option value="$PROJECT_DIR$/src/test/java/medium/RotateImageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/GroupAnagramsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java" />
       </list>
     </option>
   </component>
@@ -547,9 +544,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="easy" />
       <recent name="medium" />
       <recent name="hard" />
-      <recent name="easy" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -573,7 +570,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GroupAnagramsTest.groupAnagrams2">
+  <component name="RunManager" selected="JUnit.MaximumSubarrayTest.maxSubArray2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -623,46 +620,46 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RotateImageTest.rotate3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSubarrayTest.maxSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
-      <option name="METHOD_NAME" value="rotate3" />
+      <option name="PACKAGE_NAME" value="easy" />
+      <option name="MAIN_CLASS_NAME" value="easy.MaximumSubarrayTest" />
+      <option name="METHOD_NAME" value="maxSubArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <patterns />
     </configuration>
-    <configuration name="RotateImageTest.rotate4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSubarrayTest.maxSubArray2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
-      <option name="METHOD_NAME" value="rotate4" />
+      <option name="PACKAGE_NAME" value="easy" />
+      <option name="MAIN_CLASS_NAME" value="easy.MaximumSubarrayTest" />
+      <option name="METHOD_NAME" value="maxSubArray2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -817,19 +814,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.RotateImageTest.rotate3" />
-      <item itemvalue="JUnit.RotateImageTest.rotate4" />
       <item itemvalue="JUnit.RotateImageTest.rotate5" />
       <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams" />
       <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams2" />
+      <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArray" />
+      <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArray2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArray2" />
+        <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArray" />
         <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams2" />
         <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams" />
         <item itemvalue="JUnit.RotateImageTest.rotate5" />
-        <item itemvalue="JUnit.RotateImageTest.rotate4" />
-        <item itemvalue="JUnit.RotateImageTest.rotate3" />
       </list>
     </recent_temporary>
   </component>
@@ -847,15 +844,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PermutationsTest_permute - 2018.08.22 at 07h 14m 19s.xml">
-      <configuration name="PermutationsTest.permute" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RotateImageTest_rotate - 2018.08.22 at 17h 49m 50s.xml">
-      <configuration name="RotateImageTest.rotate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RotateImageTest_rotate2 - 2018.08.22 at 17h 50m 24s.xml">
-      <configuration name="RotateImageTest.rotate2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RotateImageTest_rotate2 - 2018.08.22 at 17h 51m 44s.xml">
       <configuration name="RotateImageTest.rotate2" configurationId="JUnit" />
     </history-entry>
@@ -876,6 +864,15 @@
     </history-entry>
     <history-entry file="GroupAnagramsTest_groupAnagrams2 - 2018.08.22 at 20h 49m 59s.xml">
       <configuration name="GroupAnagramsTest.groupAnagrams2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupAnagramsTest_groupAnagrams2 - 2018.08.22 at 20h 55m 27s.xml">
+      <configuration name="GroupAnagramsTest.groupAnagrams2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumSubarrayTest_maxSubArray - 2018.08.22 at 21h 02m 50s.xml">
+      <configuration name="MaximumSubarrayTest.maxSubArray" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumSubarrayTest_maxSubArray2 - 2018.08.22 at 21h 06m 12s.xml">
+      <configuration name="MaximumSubarrayTest.maxSubArray2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -904,13 +901,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37628865" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37628865" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.52259034" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.52259034" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1425,8 +1422,14 @@
           <properties />
           <option name="timeStamp" value="274" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="275" />
+      <option name="time" value="276" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1479,14 +1482,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Character.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/easy/ValidParenthesesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1542,13 +1537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1667,6 +1655,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1825,11 +1816,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="325">
+          <caret line="56" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/easy/ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" selection-start-line="25" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/easy/MaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
