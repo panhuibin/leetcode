@@ -2,6 +2,8 @@ package medium;
 
 import java.util.ArrayList;
 
+import module.ListNode;
+
 /**
  * https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
  * Given a linked list, remove the n-th node from the end of list and return its head.

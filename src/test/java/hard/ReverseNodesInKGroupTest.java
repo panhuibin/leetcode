@@ -1,6 +1,6 @@
 package hard;
 
-import medium.ListNode;
+import module.ListNode;
 import org.junit.Test;
 
 public class ReverseNodesInKGroupTest {

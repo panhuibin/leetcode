@@ -2,6 +2,8 @@ package medium;
 
 import org.junit.Test;
 
+import module.ListNode;
+
 public class MergeKSortedListsTest {
 
     MergeKSortedLists m = new MergeKSortedLists();

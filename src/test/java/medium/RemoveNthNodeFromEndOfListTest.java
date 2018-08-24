@@ -2,7 +2,7 @@ package medium;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import module.ListNode;
 
 public class RemoveNthNodeFromEndOfListTest {
     RemoveNthNodeFromEndOfList r = new RemoveNthNodeFromEndOfList();

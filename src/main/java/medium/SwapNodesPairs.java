@@ -1,5 +1,7 @@
 package medium;
 
+import module.ListNode;
+
 /**
  * https://leetcode.com/problems/swap-nodes-in-pairs/description/
  * Given a linked list, swap every two adjacent nodes and return its head.

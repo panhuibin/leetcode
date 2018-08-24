@@ -2,7 +2,7 @@ package easy;
 
 import org.junit.Test;
 
-import medium.ListNode;
+import module.ListNode;
 
 public class MergeTwoSortedListsTest {
     MergeTwoSortedLists m = new MergeTwoSortedLists();

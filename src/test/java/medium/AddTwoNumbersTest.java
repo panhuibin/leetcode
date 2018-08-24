@@ -2,6 +2,8 @@ package medium;
 
 import org.junit.Test;
 
+import module.ListNode;
+
 public class AddTwoNumbersTest {
     AddTwoNumbers a = new AddTwoNumbers();
 

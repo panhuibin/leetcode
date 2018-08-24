@@ -1,4 +1,4 @@
-package medium;
+package module;
 
 public class ListNode {
     public int val;

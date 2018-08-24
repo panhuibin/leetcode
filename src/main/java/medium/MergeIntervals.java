@@ -16,8 +16,9 @@ package medium;
  Explanation: Intervals [1,4] and [4,5] are considerred overlapping.
  */
 
-import sun.jvm.hotspot.utilities.Interval;
+import module.Interval;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -31,7 +32,12 @@ import java.util.List;
  */
 public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
-        return null;
+        List<Interval> sortedIntervals = new ArrayList<>();
+        for(Interval interval:intervals){
+            for(Interval intervalInArray: sortedIntervals){
+                if(ab)
+            }
+        }
     }
 
 }

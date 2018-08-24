@@ -1,6 +1,6 @@
 package easy;
 
-import medium.ListNode;
+import module.ListNode;
 
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/description/
