@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/medium/MergeIntervalsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/leetcode_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/leetcode_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/easy/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/medium/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/medium/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/easy/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/easy/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hard/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hard/ReverseNodesInKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/SwapNodesPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/SwapNodesPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/easy/MergeTwoSortedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/easy/MergeTwoSortedListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hard/ReverseNodesInKGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hard/ReverseNodesInKGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/medium/MergeKSortedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/MergeKSortedListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/RemoveNthNodeFromEndOfListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/medium/SwapNodesPairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/SwapNodesPairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/medium/MergeIntervalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/MergeIntervalsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,8 +47,8 @@
       <file leaf-file-name="MergeIntervals.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="213">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +59,8 @@
       <file leaf-file-name="MergeIntervalsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/medium/MergeIntervalsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="90">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -531,23 +510,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JumpGameTest.canJump">
+  <component name="RunManager" selected="JUnit.MergeIntervalsTest.merge3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="GroupAnagramsTest.groupAnagrams2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervalsTest.merge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.GroupAnagramsTest" />
-      <option name="METHOD_NAME" value="groupAnagrams2" />
+      <option name="MAIN_CLASS_NAME" value="medium.MergeIntervalsTest" />
+      <option name="METHOD_NAME" value="merge" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -558,65 +537,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JumpGameTest.canJump" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervalsTest.merge2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.JumpGameTest" />
-      <option name="METHOD_NAME" value="canJump" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JumpGameTest.canJump1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="module.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.JumpGameTest" />
-      <option name="METHOD_NAME" value="canJump1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MaximumSubarrayTest.maxSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.MaximumSubarrayTest" />
-      <option name="METHOD_NAME" value="maxSubArray" />
+      <option name="MAIN_CLASS_NAME" value="medium.MergeIntervalsTest" />
+      <option name="METHOD_NAME" value="merge2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -627,23 +560,69 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RotateImageTest.rotate5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeIntervalsTest.merge3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.RotateImageTest" />
-      <option name="METHOD_NAME" value="rotate5" />
+      <option name="MAIN_CLASS_NAME" value="medium.MergeIntervalsTest" />
+      <option name="METHOD_NAME" value="merge3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MergeIntervalsTest.merge4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.MergeIntervalsTest" />
+      <option name="METHOD_NAME" value="merge4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MergeIntervalsTest.merge7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.MergeIntervalsTest" />
+      <option name="METHOD_NAME" value="merge7" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -803,19 +782,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams2" />
-      <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArray" />
-      <item itemvalue="JUnit.RotateImageTest.rotate5" />
-      <item itemvalue="JUnit.JumpGameTest.canJump" />
-      <item itemvalue="JUnit.JumpGameTest.canJump1" />
+      <item itemvalue="JUnit.MergeIntervalsTest.merge3" />
+      <item itemvalue="JUnit.MergeIntervalsTest.merge4" />
+      <item itemvalue="JUnit.MergeIntervalsTest.merge7" />
+      <item itemvalue="JUnit.MergeIntervalsTest.merge2" />
+      <item itemvalue="JUnit.MergeIntervalsTest.merge" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JumpGameTest.canJump" />
-        <item itemvalue="JUnit.JumpGameTest.canJump1" />
-        <item itemvalue="JUnit.RotateImageTest.rotate5" />
-        <item itemvalue="JUnit.MaximumSubarrayTest.maxSubArray" />
-        <item itemvalue="JUnit.GroupAnagramsTest.groupAnagrams2" />
+        <item itemvalue="JUnit.MergeIntervalsTest.merge3" />
+        <item itemvalue="JUnit.MergeIntervalsTest.merge" />
+        <item itemvalue="JUnit.MergeIntervalsTest.merge2" />
+        <item itemvalue="JUnit.MergeIntervalsTest.merge4" />
+        <item itemvalue="JUnit.MergeIntervalsTest.merge7" />
       </list>
     </recent_temporary>
   </component>
@@ -833,35 +812,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JumpGameTest_canJump - 2018.08.23 at 07h 11m 04s.xml">
-      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump - 2018.08.23 at 07h 12m 56s.xml">
-      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump - 2018.08.23 at 07h 13m 04s.xml">
-      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump - 2018.08.23 at 07h 13m 07s.xml">
-      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump - 2018.08.23 at 07h 13m 28s.xml">
-      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump - 2018.08.23 at 07h 24m 03s.xml">
-      <configuration name="JumpGameTest.canJump" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump1 - 2018.08.23 at 07h 18m 58s.xml">
-      <configuration name="JumpGameTest.canJump1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JumpGameTest_canJump1 - 2018.08.23 at 07h 21m 38s.xml">
-      <configuration name="JumpGameTest.canJump1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JumpGameTest_canJump1 - 2018.08.23 at 07h 22m 10s.xml">
       <configuration name="JumpGameTest.canJump1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JumpGameTest_canJump1 - 2018.08.23 at 07h 23m 49s.xml">
       <configuration name="JumpGameTest.canJump1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge - 2018.08.23 at 22h 21m 24s.xml">
+      <configuration name="MergeIntervalsTest.merge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge2 - 2018.08.23 at 22h 24m 11s.xml">
+      <configuration name="MergeIntervalsTest.merge2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge3 - 2018.08.23 at 22h 24m 23s.xml">
+      <configuration name="MergeIntervalsTest.merge3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge4 - 2018.08.23 at 22h 24m 40s.xml">
+      <configuration name="MergeIntervalsTest.merge4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge5 - 2018.08.23 at 22h 24m 59s.xml">
+      <configuration name="MergeIntervalsTest.merge5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge6 - 2018.08.23 at 22h 25m 27s.xml">
+      <configuration name="MergeIntervalsTest.merge6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge - 2018.08.23 at 22h 35m 36s.xml">
+      <configuration name="MergeIntervalsTest.merge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeIntervalsTest_merge7 - 2018.08.23 at 22h 35m 36s.xml">
+      <configuration name="MergeIntervalsTest.merge7" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -879,23 +858,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946298" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280116" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280116" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32680723" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37628865" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37628865" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5239478" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.52259034" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -904,7 +884,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280116" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1423,8 +1402,26 @@
           <properties />
           <option name="timeStamp" value="277" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="279" />
+      <option name="time" value="283" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1834,8 +1831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/MergeIntervalsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="90">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1844,8 +1841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="213">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
