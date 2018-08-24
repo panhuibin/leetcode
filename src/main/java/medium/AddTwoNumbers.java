@@ -15,7 +15,7 @@ Explanation: 342 + 465 = 807.
 
 import module.ListNode;
 
-class AddTwoNumbers {
+public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carryOver = 0;
         ListNode previousNode = null;

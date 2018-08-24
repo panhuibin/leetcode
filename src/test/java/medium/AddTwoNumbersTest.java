@@ -20,8 +20,7 @@ public class AddTwoNumbersTest {
         l2.next.next.next = new ListNode(9);
         l2.next.next.next.next = null;
 
-        AddTwoNumbers self = new AddTwoNumbers();
-        ListNode sum = self.addTwoNumbers(l1, l2);
+        ListNode sum = a.addTwoNumbers(l1, l2);
         sum.print();
     }
 }
