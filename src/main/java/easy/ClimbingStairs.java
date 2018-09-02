@@ -29,42 +29,23 @@ import java.util.List;
  */
 public class ClimbingStairs {
     public int climbStairs(int n) {
-        //the first one is 1 step for every step
-        //the first round is combining 2
-        //the last one is 2 steps for almost every step
-        List<List<String>> climbWays = new ArrayList();
-        List<String> climbWay = new ArrayList();
-        for (int i = 0; i < n; i++) {
-            climbWay.add("1 step");
+        //this is a fibonachhi question.
+        //n==1, result = 1(1)
+        //n==2, result = 2(1+1, 2)
+        //n==3, result = 2+1(1+1+1,2+1,1+2) (because we can add 1 step at the end of n-1 combination,
+        //and we can add 2 steps at the end of n-2 combination, that's all the new combination is)
+        //n==4, result = 3+2(1+1+1+1,2+1+1,1+2+1,1+1+2,2+2)
+
+        if(n==0) return 0;
+        int combinationSumNMinus1 = 1;
+        int combinationSumNMinus2 = 0;
+        for(int i=1;i<=n;i++){
+            int temp = combinationSumNMinus2;
+            combinationSumNMinus2 = combinationSumNMinus1;
+            combinationSumNMinus1 += temp;
         }
-        climbWays.add(climbWay);
-        climb(climbWays, climbWays);
-        print(climbWays);
-        return climbWays.size();
+        return combinationSumNMinus1;
     }
 
-    private void climb(List<List<String>> totalClimbWays, final List<List<String>> climbWaysToDealWith) {
-        List<List<String>> nextClimbWaysToDealWith = new ArrayList();
-        for (final List<String> climbWay : climbWaysToDealWith) {
-            for (int i = 0; i < climbWay.size() - 1; i++) {
-                if (climbWay.get(i).equals("1 step") && climbWay.get(i + 1).equals("1 step")) {
-                    List<String> newWay = new ArrayList(climbWay);
-                    newWay.remove(i + 1);
-                    newWay.remove(i);
-                    newWay.add(i, "2 steps");
-                    if(!nextClimbWaysToDealWith.contains(newWay))
-                        nextClimbWaysToDealWith.add(newWay);
-                }
-            }
-        }
-        if (nextClimbWaysToDealWith.size() == 0) return;
-        totalClimbWays.addAll(nextClimbWaysToDealWith);
-        climb(totalClimbWays, nextClimbWaysToDealWith);
-    }
 
-    private void print(List<List<String>> climbWays){
-        climbWays.forEach(climbWay -> {climbWay.forEach(step -> System.out.print(step+","));
-            System.out.print("\n");
-        });
-    }
 }
