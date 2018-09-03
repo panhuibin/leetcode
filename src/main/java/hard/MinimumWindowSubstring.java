@@ -14,6 +14,7 @@ package hard;
  */
 
 class MinimumWindowSubstring {
+
     public String minWindow(String s, String t) {
         return null;
     }
