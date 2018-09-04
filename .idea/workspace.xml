@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hard/MinimumWindowSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/SubsetsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/WordSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hard/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hard/MinimumWindowSubstring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,66 +47,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClimbingStairs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/easy/ClimbingStairs.java">
+      <file leaf-file-name="SubsetsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/SubsetsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="197">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditDistance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hard/EditDistance.java">
+      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="244">
+              <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortColors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/SortColors.java">
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="107">
+              <caret line="3129" selection-start-line="3129" selection-end-line="3129" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hard/MinimumWindowSubstring.java">
+      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="314">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hard/MinimumWindowSubstringTest.java">
+      <file leaf-file-name="FrameworkMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortColorsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/medium/SortColorsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -112,38 +95,8 @@
       <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParentRunner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="e#2922#2923#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockJUnit4ClassRunner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClimbingStairsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/easy/ClimbingStairsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -162,7 +115,11 @@
     <findStrings>
       <find>INDEX</find>
       <find>singleREsult</find>
+      <find>&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -383,10 +340,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/medium/ZigZagConversion.java" />
-        <option value="$PROJECT_DIR$/src/test/java/medium/ZigZagConversionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hard/ReverseNodesInKGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hard/ReverseNodesInKGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/GenerateParenthesesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/NextPermutationTest.java" />
@@ -434,6 +387,10 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/SortColors.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/MinimumWindowSubstringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/SubsetsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/WordSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/WordSearch.java" />
       </list>
     </option>
   </component>
@@ -451,8 +408,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,6 +475,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -549,8 +506,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="hard" />
       <recent name="medium" />
+      <recent name="hard" />
       <recent name="easy" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -576,124 +533,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortColorsTest.sortColors">
+  <component name="RunManager" selected="JUnit.WordSearchTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ClimbingStairsTest.climbStairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.ClimbingStairsTest" />
-      <option name="METHOD_NAME" value="climbStairs" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ClimbingStairsTest.climbStairs1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.ClimbingStairsTest" />
-      <option name="METHOD_NAME" value="climbStairs1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SortColorsTest.sortColors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.SortColorsTest" />
-      <option name="METHOD_NAME" value="sortColors" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SortColorsTest.sortColors1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.SortColorsTest" />
-      <option name="METHOD_NAME" value="sortColors1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SortColorsTest.sortColors2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.SortColorsTest" />
-      <option name="METHOD_NAME" value="sortColors2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
       <module name="leetcode_test" />
@@ -706,6 +548,121 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordSearchTest.exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
+      <option name="METHOD_NAME" value="exist" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordSearchTest.exist1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
+      <option name="METHOD_NAME" value="exist1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordSearchTest.exist3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
+      <option name="METHOD_NAME" value="exist3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordSearchTest.exist4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
+      <option name="METHOD_NAME" value="exist4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -875,19 +832,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
-      <item itemvalue="JUnit.ClimbingStairsTest.climbStairs1" />
-      <item itemvalue="JUnit.SortColorsTest.sortColors" />
-      <item itemvalue="JUnit.SortColorsTest.sortColors1" />
-      <item itemvalue="JUnit.SortColorsTest.sortColors2" />
+      <item itemvalue="JUnit.WordSearchTest.exist" />
+      <item itemvalue="JUnit.WordSearchTest.exist1" />
+      <item itemvalue="JUnit.WordSearchTest.exist3" />
+      <item itemvalue="JUnit.WordSearchTest.exist4" />
+      <item itemvalue="JUnit.WordSearchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortColorsTest.sortColors" />
-        <item itemvalue="JUnit.SortColorsTest.sortColors2" />
-        <item itemvalue="JUnit.SortColorsTest.sortColors1" />
-        <item itemvalue="JUnit.ClimbingStairsTest.climbStairs1" />
-        <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
+        <item itemvalue="JUnit.WordSearchTest" />
+        <item itemvalue="JUnit.WordSearchTest.exist4" />
+        <item itemvalue="JUnit.WordSearchTest.exist" />
+        <item itemvalue="JUnit.WordSearchTest.exist1" />
+        <item itemvalue="JUnit.WordSearchTest.exist3" />
       </list>
     </recent_temporary>
   </component>
@@ -905,35 +862,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClimbingStairsTest_climbStairs - 2018.08.28 at 07h 46m 11s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist1 - 2018.09.04 at 15h 18m 29s.xml">
+      <configuration name="WordSearchTest.exist1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs - 2018.08.28 at 07h 46m 37s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist1 - 2018.09.04 at 15h 19m 33s.xml">
+      <configuration name="WordSearchTest.exist1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs - 2018.08.28 at 07h 47m 14s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist1 - 2018.09.04 at 15h 20m 20s.xml">
+      <configuration name="WordSearchTest.exist1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs - 2018.08.28 at 07h 50m 31s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist2 - 2018.09.04 at 15h 26m 24s.xml">
+      <configuration name="WordSearchTest.exist2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs - 2018.08.28 at 07h 51m 50s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist2 - 2018.09.04 at 15h 26m 28s.xml">
+      <configuration name="WordSearchTest.exist2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs - 2018.08.28 at 07h 51m 53s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist3 - 2018.09.04 at 15h 37m 05s.xml">
+      <configuration name="WordSearchTest.exist3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs1 - 2018.08.28 at 07h 52m 29s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs1" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist1 - 2018.09.04 at 15h 37m 11s.xml">
+      <configuration name="WordSearchTest.exist1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs1 - 2018.09.02 at 15h 39m 56s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs1" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist - 2018.09.04 at 15h 37m 14s.xml">
+      <configuration name="WordSearchTest.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs1 - 2018.09.02 at 15h 40m 25s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs1" configurationId="JUnit" />
+    <history-entry file="WordSearchTest_exist4 - 2018.09.04 at 15h 38m 29s.xml">
+      <configuration name="WordSearchTest.exist4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClimbingStairsTest_climbStairs1 - 2018.09.02 at 15h 40m 51s.xml">
-      <configuration name="ClimbingStairsTest.climbStairs1" configurationId="JUnit" />
+    <history-entry file="WordSearchTest - 2018.09.04 at 15h 39m 49s.xml">
+      <configuration name="WordSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -951,25 +908,25 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946298" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280116" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32680723" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31174698" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3280116" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3814433" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2687776" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4759036" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4759036" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1519,8 +1476,80 @@
           <properties />
           <option name="timeStamp" value="294" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/Subsets.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/Subsets.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/Subsets.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="295" />
+      <option name="time" value="315" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1573,41 +1602,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/SwapNodesPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/FindFirstandLastPositionOfElementinSortedArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/FindFirstandLastPositionOfElementinSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/easy/SearchInsertPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1824,9 +1818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1840,27 +1831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1878,9 +1852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1891,20 +1862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/SortColorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1922,14 +1883,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hard/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="51" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="3129" selection-start-line="3129" selection-end-line="3129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/SubsetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/WordSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
         </state>
       </provider>
     </entry>
