@@ -4,6 +4,8 @@ import java.util.Stack;
 
 /**
  * https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+ * explainiation here:
+ * https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
  * Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
  * <p>
  * <p>
@@ -22,7 +24,7 @@ import java.util.Stack;
  * Output: 10
  */
 class LargestRectangleInHistogram {
-    public int largestRectangleArea(int[] height) {
+    public int largestRectangleArea(int[] heights) {
 
         // Create an empty stack. The stack holds indexes of hist[] array
         // The bars stored in stack are always in increasing order of their
@@ -35,19 +37,19 @@ class LargestRectangleInHistogram {
         // Run through all bars of given histogram
         int i = 0;
 
-        while (i < height.length) {
+        while (i < heights.length) {
             //if this bar is higher than the bar on top stack, push it to stack
-            if (s.isEmpty() || height[s.peek()] < height[i]) {
+            if (s.isEmpty() || heights[s.peek()] < heights[i]) {
                 s.push(i++);
             }
             //if the bar is lower than the bar on top stack,then calculate the area of the rectangle
-            //with the stack top as the smallest (or minimum height) bar.
+            //with the stack top as the smallest (or minimum heights) bar.
             //'i' is 'right index' for the top and element before top in stack is 'left index'
             else {
                 topOfStack = s.peek();//store the top index
                 s.pop(); //pop the top
-                //calculate the area with height[topOfStack] as the smallest bar
-                areaOfTop = height[topOfStack] * (s.isEmpty() ? i : i - s.peek() - 1);
+                //calculate the area with heights[topOfStack] as the smallest bar
+                areaOfTop = heights[topOfStack] * (s.isEmpty() ? i : i - s.peek() - 1);
 
                 //update maxArea
                 maxArea = Math.max(maxArea, areaOfTop);
@@ -57,7 +59,7 @@ class LargestRectangleInHistogram {
         while (!s.isEmpty()) {
             topOfStack = s.peek();
             s.pop();
-            areaOfTop = height[topOfStack] * (s.isEmpty() ? i : i - s.peek() - 1);
+            areaOfTop = heights[topOfStack] * (s.isEmpty() ? i : i - s.peek() - 1);
             maxArea = Math.max(maxArea, areaOfTop);
         }
 

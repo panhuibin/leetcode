@@ -1,5 +1,7 @@
 package hard;
 
+import java.util.Stack;
+
 /**
  * https://leetcode.com/problems/trapping-rain-water/description/
  * <p>
@@ -17,57 +19,39 @@ public class TrappingRainWater {
 
 
     public int trap(int[] heights) {
-        //find the peak and and bottom and peak and bottom and calculate the volume of water inside
-        //for the example input, 0->1->:peak1
-        //0->2->1: peak2
-        //calculate the volume between peak1 and peak2:
-        //min(peak1,peak2)==height
-        //for each node (peak1+1)->(peak2-1) volume+=(height-nums[j])
-        //keep the record of previous peak and recursively find next peak
+        //try to re-use teh largestRectangleHistogram solution: using stack for solution
+        // Create an empty stack. The stack holds indexes of hist[] array
+        // The bars stored in stack are always in decreasing order of their
+        // heights.
+        Stack<Integer> s = new Stack<>();
+        int maxArea = 0; // Initialize max area
+        int topOfStack;  // To store top of stack
+        int areaOfTop; // To store area with top bar as the smallest bar
 
-        return trapRecursively(heights, 0);
-    }
+        // Run through all bars of given histogram
+        int i = 0;
 
-    private int trapRecursively(int[] heights, int volume) {
-        //water can only be contained when heights has at least 3 items
-        if (heights.length < 3) return volume;
-        int[] peaks = findPeaks(heights);
-        int leftPeakIndex = peaks[0];
-        int rightPeakIndex = peaks[1];
-        if (leftPeakIndex == -1 || rightPeakIndex == -1) return volume;
-
-        int waterHeight = Math.min(heights[leftPeakIndex], heights[rightPeakIndex]);
-
-        for (int i = leftPeakIndex + 1; i < rightPeakIndex; i++) {
-            volume += Math.max(0, waterHeight - heights[i]);
-        }
-
-        int[] leftOverHeights = new int[heights.length - rightPeakIndex];
-        System.arraycopy(heights, rightPeakIndex, leftOverHeights, 0, heights.length - rightPeakIndex);
-        return trapRecursively(leftOverHeights, volume);
-    }
-
-    public int[] findPeaks(int nums[]) {
-        int leftPeak = -1;
-        int rightPeak = -1;
-
-        for (int i = 1; i < nums.length - 1; i++) {
-
-            if ((nums[i] > nums[i - 1]) && (nums[i] > nums[i + 1])) {
-                if (leftPeak == -1) leftPeak = i;
-                else rightPeak = i;
+        while (i < heights.length) {
+            //if this bar is lower than the bar on top stack, push it to stack
+            if (s.isEmpty() || heights[s.peek()] >= heights[i]) {
+                s.push(i++);
             }
-
-            if (leftPeak != -1 && rightPeak != -1 && nums[rightPeak] >= nums[leftPeak]) {
-                return new int[]{leftPeak, rightPeak};
+            //if the bar is higher than the bar on top stack,then calculate the area of the rectangle
+            //with the stack top as the smallest (or minimum heights) bar.
+            //'i' is 'right index' for the top and element before top in stack is 'left index'
+            else {
+                topOfStack = s.pop();//store the top index
+                //calculate the that's storing the water
+                if(!s.isEmpty()){
+                    int rimHeight = Math.min(heights[i], heights[s.peek()]);
+                    areaOfTop = (rimHeight - heights[topOfStack]) * (i - s.peek() - 1);
+                    maxArea += areaOfTop;
+                }
             }
         }
-        if (nums[nums.length - 2] < nums[nums.length - 1]) {
-            if (leftPeak == -1) leftPeak = nums.length - 1;
-            else if (rightPeak == -1) rightPeak = nums.length - 1;
-            else if (nums[nums.length - 1] > nums[rightPeak]) rightPeak = nums.length - 1;
-        }
-        return new int[]{leftPeak, rightPeak};
+
+        return maxArea;
     }
+
 
 }
