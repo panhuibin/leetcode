@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/medium/UniqueBinarySearchTreesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/ValidateBinarySearchTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,15 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="52" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LargestRectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,8 +66,8 @@
       <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="35" selection-start-line="35" selection-end-line="37" selection-end-column="74" />
+            <state relative-caret-position="43">
+              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniqueBinarySearchTrees.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UniqueBinarySearchTrees.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="93">
+              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidateBinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="40" column="74" lean-forward="true" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidateBinarySearchTreeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/ValidateBinarySearchTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -134,15 +143,6 @@
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#130#131#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LargestRectangleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -386,8 +386,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/medium/FindFirstandLastPositionOfElementinSortedArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/easy/SearchInsertPositionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/CombinationSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/CombinationSum.java" />
@@ -437,6 +435,8 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/UniqueBinarySearchTreesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/ValidateBinarySearchTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -579,7 +579,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UniqueBinarySearchTreesTest.numTrees">
+  <component name="RunManager" selected="JUnit.ValidateBinarySearchTreeTest.isValidBST1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -606,29 +606,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LargestRectangleInHistogramTest.largestRectangleArea1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.LargestRectangleInHistogramTest" />
-      <option name="METHOD_NAME" value="largestRectangleArea1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="LargestRectangleTest.maximalRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
@@ -642,29 +619,6 @@
       <option name="PACKAGE_NAME" value="hard" />
       <option name="MAIN_CLASS_NAME" value="hard.LargestRectangleTest" />
       <option name="METHOD_NAME" value="maximalRectangle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TrappingRainWaterTest.trap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hard" />
-      <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWaterTest" />
-      <option name="METHOD_NAME" value="trap" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -709,6 +663,52 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ValidateBinarySearchTreeTest.isValidBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.ValidateBinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="isValidBST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ValidateBinarySearchTreeTest.isValidBST1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.ValidateBinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="isValidBST1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -878,19 +878,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea1" />
-      <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
       <item itemvalue="JUnit.LargestRectangleTest.maximalRectangle" />
       <item itemvalue="JUnit.BinaryTreeInorderTraversalTest.inorderTraversal" />
       <item itemvalue="JUnit.UniqueBinarySearchTreesTest.numTrees" />
+      <item itemvalue="JUnit.ValidateBinarySearchTreeTest.isValidBST" />
+      <item itemvalue="JUnit.ValidateBinarySearchTreeTest.isValidBST1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateBinarySearchTreeTest.isValidBST1" />
+        <item itemvalue="JUnit.ValidateBinarySearchTreeTest.isValidBST" />
         <item itemvalue="JUnit.UniqueBinarySearchTreesTest.numTrees" />
         <item itemvalue="JUnit.BinaryTreeInorderTraversalTest.inorderTraversal" />
         <item itemvalue="JUnit.LargestRectangleTest.maximalRectangle" />
-        <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
-        <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea1" />
       </list>
     </recent_temporary>
   </component>
@@ -908,15 +908,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LargestRectangleTest_maximalRectangle - 2018.09.09 at 15h 18m 54s.xml">
-      <configuration name="LargestRectangleTest.maximalRectangle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestRectangleTest_maximalRectangle - 2018.09.09 at 15h 23m 17s.xml">
-      <configuration name="LargestRectangleTest.maximalRectangle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 24m 47s.xml">
-      <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 24m 51s.xml">
       <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
     </history-entry>
@@ -937,6 +928,15 @@
     </history-entry>
     <history-entry file="UniqueBinarySearchTreesTest_numTrees - 2018.09.09 at 16h 45m 26s.xml">
       <configuration name="UniqueBinarySearchTreesTest.numTrees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniqueBinarySearchTreesTest_numTrees - 2018.09.09 at 16h 45m 42s.xml">
+      <configuration name="UniqueBinarySearchTreesTest.numTrees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniqueBinarySearchTreesTest_numTrees - 2018.09.09 at 16h 46m 16s.xml">
+      <configuration name="UniqueBinarySearchTreesTest.numTrees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidateBinarySearchTreeTest_isValidBST1 - 2018.09.09 at 19h 22m 29s.xml">
+      <configuration name="ValidateBinarySearchTreeTest.isValidBST1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1636,12 +1636,23 @@
           <properties />
           <option name="timeStamp" value="327" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="328" />
+      <option name="time" value="329" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>level - root - 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>nums.length / 2 - 1</expression-string>
         <language-id>JAVA</language-id>
@@ -1682,28 +1693,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>String.valueOf((char) currentDigitStartingLetter</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/GroupAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="56" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="25" selection-start-line="25" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/easy/MaximumSubarrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -2026,16 +2018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="35" selection-start-line="35" selection-end-line="37" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/UniqueBinarySearchTreesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -2050,8 +2032,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="93">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/ValidateBinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="74" lean-forward="true" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
         </state>
       </provider>
     </entry>
