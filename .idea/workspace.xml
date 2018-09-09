@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -61,11 +63,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="445">
               <caret line="52" column="23" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="52" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LargestRectangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LargestRectangleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -97,29 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46110">
-              <caret line="3129" selection-start-line="3129" selection-end-line="3129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/medium/WordSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
               <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameworkMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -372,8 +374,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/medium/NextPermutationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/LongestValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/LongestValidParenthesesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/SearchInRotatedSortedArray.java" />
@@ -423,6 +423,8 @@
         <option value="$PROJECT_DIR$/src/main/java/hard/LargestRectangleInHistogram.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/TrappingRainWaterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" />
       </list>
     </option>
   </component>
@@ -440,6 +442,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="leetcode" type="cbb8eebc:String" user="leetcode" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="leetcode" type="cbb8eebc:String" user="leetcode" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -508,23 +527,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="leetcode" type="cbb8eebc:String" user="leetcode" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="leetcode" type="cbb8eebc:String" user="leetcode" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,7 +567,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrappingRainWaterTest.trap">
+  <component name="RunManager" selected="JUnit.LargestRectangleTest.maximalRectangle">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -605,6 +607,29 @@
       <option name="PACKAGE_NAME" value="hard" />
       <option name="MAIN_CLASS_NAME" value="hard.LargestRectangleInHistogramTest" />
       <option name="METHOD_NAME" value="largestRectangleArea1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LargestRectangleTest.maximalRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hard" />
+      <option name="MAIN_CLASS_NAME" value="hard.LargestRectangleTest" />
+      <option name="METHOD_NAME" value="maximalRectangle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -669,29 +694,6 @@
       <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WordSearchTest.exist4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
-      <option name="METHOD_NAME" value="exist4" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -864,19 +866,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.WordSearchTest.exist4" />
       <item itemvalue="JUnit.WordSearchTest" />
       <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea" />
       <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea1" />
       <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
+      <item itemvalue="JUnit.LargestRectangleTest.maximalRectangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LargestRectangleTest.maximalRectangle" />
         <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
         <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea1" />
         <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea" />
         <item itemvalue="JUnit.WordSearchTest" />
-        <item itemvalue="JUnit.WordSearchTest.exist4" />
       </list>
     </recent_temporary>
   </component>
@@ -951,7 +953,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27614138" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27614138" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1604,8 +1606,14 @@
           <properties />
           <option name="timeStamp" value="315" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="320" />
+      <option name="time" value="323" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1658,14 +1666,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/easy/SearchInsertPositionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1994,8 +1994,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="445">
           <caret line="52" column="23" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
         </state>
       </provider>
     </entry>
