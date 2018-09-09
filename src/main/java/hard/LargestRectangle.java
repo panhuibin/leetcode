@@ -26,34 +26,63 @@ class LargestRectangle {
         int cLen = matrix[0].length;
         int rLen = matrix.length;
         //height array
-        int[] h = new int[cLen + 1];
-        h[cLen] = 0;
-        int max = 0;
-
+        int[][] dp = new int[rLen][cLen];
+        
         for (int row = 0; row < rLen; row++) {
-            Stack<Integer> s = new Stack<>();
-            for (int col = 0; col < cLen + 1; col++) {
-                if (col < cLen) {
-                    if (matrix[row][col] == '1') {
-                        h[col] += 1;
-                    } else {
-                        h[col] = 0;
-                    }
-                }
-
-                //if finding an upper edge, push that value into stack
-                if (s.isEmpty() || h[col] >= h[s.peek()]) {
-                    s.push(col);
-                } else {
-                    while (!s.isEmpty() && h[col] < h[s.peek()]) {
-                        int top = s.pop();
-                        int area = h[top] * (s.isEmpty() ? col : (col - s.peek() - 1));
-                        max = Math.max(max, area);
-                    }
-                    s.push(col);
-                }
+            for (int col = 0; col < cLen; col++) {
+                dp[row][col] = matrix[row][col] - '0';
+                if(dp[row][col]>0 && row>0){
+                    dp[row][col] += dp[row-1][col];
+                }//otherwise restart the accumulation
             }
         }
+        int max = 0;
+        for(int[] row:dp){
+            //now the accumulation is over, we have histogram again
+            max = Math.max(largestRectangleArea(row),max);
+        }
         return max;
+    }
+
+    // copied "Largest Rectangle in Histogram" solution
+    private int largestRectangleArea(int[] heights) {
+        // Create an empty stack. The stack holds indexes of hist[] array
+        // The bars stored in stack are always in increasing order of their
+        // heights.
+        Stack<Integer> s = new Stack<>();
+        int maxArea = 0; // Initialize max area
+        int topOfStack;  // To store top of stack
+        int areaOfTop; // To store area with top bar as the smallest bar
+
+        // Run through all bars of given histogram
+        int i = 0;
+
+        while (i < heights.length) {
+            //if this bar is higher than the bar on top stack, push it to stack
+            if (s.isEmpty() || heights[s.peek()] < heights[i]) {
+                s.push(i++);
+            }
+            //if the bar is lower than the bar on top stack,then calculate the area of the rectangle
+            //with the stack top as the smallest (or minimum heights) bar.
+            //'i' is 'right index' for the top and element before top in stack is 'left index'
+            else {
+                topOfStack = s.peek();//store the top index
+                s.pop(); //pop the top
+                //calculate the area with heights[topOfStack] as the smallest bar
+                areaOfTop = heights[topOfStack] * (s.isEmpty() ? i : i - s.peek() - 1);
+
+                //update maxArea
+                maxArea = Math.max(maxArea, areaOfTop);
+            }
+        }
+        //now pop the reminding bars from the stack and calculate area with every poped bar as the smallest bar
+        while (!s.isEmpty()) {
+            topOfStack = s.peek();
+            s.pop();
+            areaOfTop = heights[topOfStack] * (s.isEmpty() ? i : i - s.peek() - 1);
+            maxArea = Math.max(maxArea, areaOfTop);
+        }
+
+        return maxArea;
     }
 }

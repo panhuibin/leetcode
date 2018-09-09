@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,19 +47,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/WordSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LargestRectangleInHistogram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangleInHistogram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
+            <state relative-caret-position="221">
               <caret line="65" column="23" selection-start-line="28" selection-start-column="8" selection-end-line="65" selection-end-column="23" />
             </state>
           </provider>
@@ -72,11 +65,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestRectangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LargestRectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+            <state relative-caret-position="51">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTreeInorderTraversalTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/module/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +120,7 @@
       <file leaf-file-name="LargestRectangleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="125">
               <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
@@ -95,33 +131,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="586">
               <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LargestRectangleInHistogramTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hard/LargestRectangleInHistogramTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordSearchTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/medium/WordSearchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -374,9 +383,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/hard/LongestValidParentheses.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hard/LongestValidParenthesesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/SearchInRotatedSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/FindFirstandLastPositionOfElementinSortedArray.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/FindFirstandLastPositionOfElementinSortedArrayTest.java" />
@@ -425,11 +431,14 @@
         <option value="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/module/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
+    <option name="x" value="12" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="784" />
@@ -540,8 +549,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="hard" />
       <recent name="medium" />
+      <recent name="hard" />
       <recent name="easy" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -567,9 +576,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LargestRectangleTest.maximalRectangle">
+  <component name="RunManager" selected="JUnit.BinaryTreeInorderTraversalTest.inorderTraversal">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.BinaryTreeInorderTraversalTest" />
+      <option name="METHOD_NAME" value="inorderTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="LargestRectangleInHistogramTest.largestRectangleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
@@ -674,29 +706,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WordSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.WordSearchTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -866,19 +875,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.WordSearchTest" />
       <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea" />
       <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea1" />
       <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
       <item itemvalue="JUnit.LargestRectangleTest.maximalRectangle" />
+      <item itemvalue="JUnit.BinaryTreeInorderTraversalTest.inorderTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeInorderTraversalTest.inorderTraversal" />
         <item itemvalue="JUnit.LargestRectangleTest.maximalRectangle" />
         <item itemvalue="JUnit.TrappingRainWaterTest.trap" />
         <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea1" />
         <item itemvalue="JUnit.LargestRectangleInHistogramTest.largestRectangleArea" />
-        <item itemvalue="JUnit.WordSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -896,35 +905,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearchTest - 2018.09.04 at 15h 39m 49s.xml">
-      <configuration name="WordSearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestRectangleInHistogramTest_largestRectangleArea - 2018.09.04 at 21h 21m 47s.xml">
-      <configuration name="LargestRectangleInHistogramTest.largestRectangleArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestRectangleInHistogramTest_largestRectangleArea1 - 2018.09.04 at 22h 15m 23s.xml">
-      <configuration name="LargestRectangleInHistogramTest.largestRectangleArea1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 07m 15s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 23m 37s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 33m 10s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 33m 43s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 34m 06s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 34m 09s.xml">
-      <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrappingRainWaterTest_trap - 2018.09.08 at 16h 41m 37s.xml">
       <configuration name="TrappingRainWaterTest.trap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargestRectangleTest_maximalRectangle - 2018.09.09 at 09h 19m 44s.xml">
+      <configuration name="LargestRectangleTest.maximalRectangle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargestRectangleTest_maximalRectangle - 2018.09.09 at 14h 35m 32s.xml">
+      <configuration name="LargestRectangleTest.maximalRectangle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargestRectangleTest_maximalRectangle - 2018.09.09 at 15h 18m 54s.xml">
+      <configuration name="LargestRectangleTest.maximalRectangle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargestRectangleTest_maximalRectangle - 2018.09.09 at 15h 23m 17s.xml">
+      <configuration name="LargestRectangleTest.maximalRectangle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 24m 47s.xml">
+      <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 24m 51s.xml">
+      <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 25m 08s.xml">
+      <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 25m 56s.xml">
+      <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeInorderTraversalTest_inorderTraversal - 2018.09.09 at 15h 26m 25s.xml">
+      <configuration name="BinaryTreeInorderTraversalTest.inorderTraversal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -937,7 +946,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1400" height="784" extended-state="0" />
+    <frame x="12" y="23" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -948,7 +957,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31174698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44728917" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
@@ -959,7 +968,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.55271083" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.69578314" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1608,12 +1617,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java</url>
-          <line>32</line>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="321" />
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="325" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="323" />
+      <option name="time" value="327" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1666,34 +1681,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LetterCombinationsOfAPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/PermutationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/RotateImageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/GroupAnagramsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1978,13 +1965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangleInHistogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="65" column="23" selection-start-line="28" selection-start-column="8" selection-end-line="65" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -2001,15 +1981,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="125">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangleInHistogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="65" column="23" selection-start-line="28" selection-start-column="8" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+        <state relative-caret-position="51">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
