@@ -36,10 +36,10 @@ class UniqueBinarySearchTrees {
         dp[0] = 1;
         dp[1] = 1;
         //calculate dp[level] from dp[2]
-        for (int level = 2; level <= n; level++) {
+        for (int level = 2; level < n + 1; level++) {
             //each need to calculate when each element are root
-            for (int root = 1; root <= level; root++) {
-                dp[level] += dp[level - root] * dp[root];
+            for (int root = 0; root < level; root++) {
+                dp[level] += dp[level - root - 1] * dp[root];
             }
         }
         return dp[n];
