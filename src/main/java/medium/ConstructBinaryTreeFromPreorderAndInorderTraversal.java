@@ -4,7 +4,6 @@ import module.TreeNode;
 
 class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     public TreeNode buildTree(int[] preOrder, int[] inOrder) {
-
         if (preOrder.length == 0) return null;
 
         return recursiveBuildTree(0, 0, inOrder.length - 1, preOrder, inOrder);
