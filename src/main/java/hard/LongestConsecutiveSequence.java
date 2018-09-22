@@ -12,6 +12,7 @@ class LongestConsecutiveSequence {
             int val = nums[i];
             int left = 0;
             int right = 0;
+            if(map.containsKey(val)) continue;
             if (map.containsKey(val - 1)) {
                 left = map.get(val - 1);
             }
@@ -19,8 +20,10 @@ class LongestConsecutiveSequence {
                 right = map.get(val + 1);
             }
             int current = left + 1 + right;
-            map.put(val - left, current);
-            map.put(val + right, current);
+            for(int j=val-left;j<=val+right;j++) {
+                map.put(j, current);
+                map.put(j, current);
+            }
             maxCon = Math.max(current, maxCon);
         }
         return maxCon;

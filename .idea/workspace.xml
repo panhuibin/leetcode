@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/easy/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/easy/BestTimeToBuyAndSellStockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/LinkedListCycleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/easy/SingleNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/WordBreakTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,53 +51,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SameTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/easy/SameTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymmetricTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/easy/SymmetricTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlattenBinaryTreetoLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/FlattenBinaryTreetoLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BestTimeToBuyAndSellStock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/easy/BestTimeToBuyAndSellStock.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestConsecutiveSequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestConsecutiveSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="187">
+              <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +72,71 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SingleNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/easy/SingleNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/WordBreak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordBreakTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/WordBreakTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListCycle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/easy/LinkedListCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListCycleII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/LinkedListCycleII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="119">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleNumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/easy/SingleNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -127,26 +144,8 @@
       <file leaf-file-name="LongestConsecutiveSequenceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BestTimeToBuyAndSellStockTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/easy/BestTimeToBuyAndSellStockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlattenBinaryTreetoLinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/medium/FlattenBinaryTreetoLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="200">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -156,8 +155,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -391,12 +390,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/medium/JumpGameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/JumpGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/Interval.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module/Interval.java" />
-        <option value="$PROJECT_DIR$/src/test/java/medium/MergeIntervalsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java" />
@@ -440,8 +433,14 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/FlattenBinaryTreetoLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/easy/BestTimeToBuyAndSellStockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy/BestTimeToBuyAndSellStock.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/easy/SingleNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/easy/SingleNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/WordBreakTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/easy/LinkedListCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/LinkedListCycleII.java" />
       </list>
     </option>
   </component>
@@ -459,6 +458,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -484,6 +484,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -535,7 +543,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,9 +556,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="hard" />
-      <recent name="easy" />
       <recent name="medium" />
+      <recent name="easy" />
+      <recent name="hard" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -576,103 +583,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LongestConsecutiveSequenceTest.longestConsecutive">
+  <component name="RunManager" selected="JUnit.WordBreakTest.wordBreak3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStockTest.maxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.BestTimeToBuyAndSellStockTest" />
-      <option name="METHOD_NAME" value="maxProfit" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FlattenBinaryTreetoLinkedListTest.flatten" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.FlattenBinaryTreetoLinkedListTest" />
-      <option name="METHOD_NAME" value="flatten" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FlattenBinaryTreetoLinkedListTest.flattenTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.FlattenBinaryTreetoLinkedListTest" />
-      <option name="METHOD_NAME" value="flattenTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FlattenBinaryTreetoLinkedListTest.flattenTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.FlattenBinaryTreetoLinkedListTest" />
-      <option name="METHOD_NAME" value="flattenTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
@@ -684,7 +599,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="hard" />
       <option name="MAIN_CLASS_NAME" value="hard.LongestConsecutiveSequenceTest" />
-      <option name="METHOD_NAME" value="longestConsecutive" />
+      <option name="METHOD_NAME" value="longestConsecutive4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SingleNumberTest.singleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="easy" />
+      <option name="MAIN_CLASS_NAME" value="easy.SingleNumberTest" />
+      <option name="METHOD_NAME" value="singleNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -706,6 +644,75 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordBreakTest.wordBreak1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordBreakTest" />
+      <option name="METHOD_NAME" value="wordBreak1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordBreakTest.wordBreak2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordBreakTest" />
+      <option name="METHOD_NAME" value="wordBreak2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordBreakTest.wordBreak3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.WordBreakTest" />
+      <option name="METHOD_NAME" value="wordBreak3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -875,19 +882,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.FlattenBinaryTreetoLinkedListTest.flatten" />
-      <item itemvalue="JUnit.FlattenBinaryTreetoLinkedListTest.flattenTest2" />
-      <item itemvalue="JUnit.FlattenBinaryTreetoLinkedListTest.flattenTest1" />
-      <item itemvalue="JUnit.BestTimeToBuyAndSellStockTest.maxProfit" />
-      <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive" />
+      <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive4" />
+      <item itemvalue="JUnit.SingleNumberTest.singleNumber" />
+      <item itemvalue="JUnit.WordBreakTest.wordBreak1" />
+      <item itemvalue="JUnit.WordBreakTest.wordBreak2" />
+      <item itemvalue="JUnit.WordBreakTest.wordBreak3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive" />
-        <item itemvalue="JUnit.BestTimeToBuyAndSellStockTest.maxProfit" />
-        <item itemvalue="JUnit.FlattenBinaryTreetoLinkedListTest.flattenTest1" />
-        <item itemvalue="JUnit.FlattenBinaryTreetoLinkedListTest.flattenTest2" />
-        <item itemvalue="JUnit.FlattenBinaryTreetoLinkedListTest.flatten" />
+        <item itemvalue="JUnit.WordBreakTest.wordBreak3" />
+        <item itemvalue="JUnit.WordBreakTest.wordBreak2" />
+        <item itemvalue="JUnit.WordBreakTest.wordBreak1" />
+        <item itemvalue="JUnit.SingleNumberTest.singleNumber" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive4" />
       </list>
     </recent_temporary>
   </component>
@@ -905,35 +912,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlattenBinaryTreetoLinkedListTest_flattenTest1 - 2018.09.16 at 12h 39m 20s.xml">
-      <configuration name="FlattenBinaryTreetoLinkedListTest.flattenTest1" configurationId="JUnit" />
+    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive4 - 2018.09.21 at 19h 25m 00s.xml">
+      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockTest_maxProfit - 2018.09.16 at 13h 57m 57s.xml">
-      <configuration name="BestTimeToBuyAndSellStockTest.maxProfit" configurationId="JUnit" />
+    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive4 - 2018.09.21 at 19h 26m 00s.xml">
+      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockTest_maxProfit - 2018.09.16 at 13h 58m 01s.xml">
-      <configuration name="BestTimeToBuyAndSellStockTest.maxProfit" configurationId="JUnit" />
+    <history-entry file="SingleNumberTest_singleNumber - 2018.09.21 at 19h 47m 45s.xml">
+      <configuration name="SingleNumberTest.singleNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 20m 29s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="SingleNumberTest_singleNumber - 2018.09.21 at 19h 48m 34s.xml">
+      <configuration name="SingleNumberTest.singleNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 21m 09s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="WordBreakTest_wordBreak1 - 2018.09.22 at 08h 03m 16s.xml">
+      <configuration name="WordBreakTest.wordBreak1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 27m 00s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="WordBreakTest_wordBreak2 - 2018.09.22 at 08h 03m 42s.xml">
+      <configuration name="WordBreakTest.wordBreak2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 27m 52s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="WordBreakTest_wordBreak3 - 2018.09.22 at 08h 04m 34s.xml">
+      <configuration name="WordBreakTest.wordBreak3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 42m 52s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="WordBreakTest_wordBreak3 - 2018.09.22 at 08h 05m 12s.xml">
+      <configuration name="WordBreakTest.wordBreak3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 53m 44s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="SingleNumberTest_singleNumber - 2018.09.22 at 08h 05m 12s.xml">
+      <configuration name="SingleNumberTest.singleNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2018.09.16 at 15h 54m 53s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="WordBreakTest_wordBreak3 - 2018.09.22 at 08h 05m 14s.xml">
+      <configuration name="WordBreakTest.wordBreak3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -951,24 +958,24 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946298" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32680723" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49852726" weight="0.32680723" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.15684831" side_tool="true" visible="true" weight="0.5346386" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24668631" side_tool="true" visible="true" weight="0.44728917" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75846833" weight="0.44728917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7533137" visible="true" weight="0.44728917" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2562592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2599411" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8431517" visible="true" weight="0.5346386" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8394698" weight="0.5346386" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -983,14 +990,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27614138" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31174698" />
       <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946298" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31174698" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1001,7 +1008,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32680723" />
@@ -1657,8 +1664,32 @@
           <properties />
           <option name="timeStamp" value="333" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/SingleNumber.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/WordBreak.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="334" />
+      <option name="time" value="340" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1711,39 +1742,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/AddTwoNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/UniquePathsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/MinimumPathSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1946,9 +1944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1963,9 +1958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1985,18 +1977,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/easy/SameTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="735">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/easy/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
@@ -2004,7 +1992,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2031,7 +2019,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/FlattenBinaryTreetoLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="315">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
@@ -2043,16 +2031,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/FlattenBinaryTreetoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="255">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
@@ -2068,20 +2049,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hard/LongestConsecutiveSequenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="200">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hard/LongestConsecutiveSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/easy/SingleNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/easy/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/WordBreakTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/easy/LinkedListCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LinkedListCycleII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
