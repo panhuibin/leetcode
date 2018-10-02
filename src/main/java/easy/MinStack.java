@@ -12,6 +12,7 @@ class MinStack {
     public void push(int x) {
         ListNode n = new ListNode(x);
         n.next = head;
+        head = n;
     }
 
     public void pop() {
@@ -32,6 +33,7 @@ class MinStack {
         ListNode temp = head;
         while(temp!=null){
             min = Math.min(temp.val,min);
+            temp = temp.next;
         }
         return min;
     }
