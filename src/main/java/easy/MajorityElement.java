@@ -21,10 +21,21 @@ import java.util.Map;
 class MajorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> eventCountMap = new HashMap();
+        int count = 0;
         for(int i=0;i<nums.length;i++){
             if(eventCountMap.get(nums[i])!=null){
-                count = eventCountMap.get(nums[i];
+                count = eventCountMap.get(nums[i]);
+                eventCountMap.put(nums[i],count+1);
+            }else{
+                eventCountMap.put(nums[i],1);
             }
         }
+        for(int key : eventCountMap.keySet()){
+            count = eventCountMap.get(key);
+            if(count>nums.length/2){
+                return key;
+            }
+        }
+        return count;
     }
 }
