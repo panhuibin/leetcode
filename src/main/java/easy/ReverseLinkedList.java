@@ -16,7 +16,20 @@ import module.ListNode;
  */
 class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
+        if(head==null||head.next==null) return head;
         Stack<ListNode> s = new Stack();
-        while()
+        while(head!=null){
+            s.push(head);
+            head = head.next;
+        }
+        ListNode temp = s.pop();
+        head = temp;
+        while(!s.isEmpty()){
+            ListNode next = s.pop();
+            temp.next = next;
+            temp = next;
+        }
+        temp.next = null;
+        return head;
     }
 }
