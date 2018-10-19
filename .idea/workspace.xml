@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58216674-9104-47a0-95b7-943f56108e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/medium/LowestCommonAncestorOfABinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hard/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/PerfectSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/easy/MoveZeroesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/FindTheDuplicateNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/LongestIncreasingSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/PerfectSquaresTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,44 +52,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Trie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/Trie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KthLargestElementInArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/KthLargestElementInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvertBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/easy/InvertBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PalindromLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/easy/PalindromLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="555">
               <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,65 +64,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowestCommonAncestorOfABinaryTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/medium/LowestCommonAncestorOfABinaryTree.java">
+      <file leaf-file-name="PerfectSquares.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/PerfectSquares.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="450">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTheDuplicateNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/FindTheDuplicateNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializeAndDeserializeBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hard/SerializeAndDeserializeBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeLevelOrderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java">
+      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/LongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestIncreasingSubsequenceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/LongestIncreasingSubsequenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeInorderTraversalTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java">
+      <file leaf-file-name="FindTheDuplicateNumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/medium/FindTheDuplicateNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeInorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="158">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromLinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/easy/PalindromLinkedListTest.java">
+      <file leaf-file-name="MoveZeroesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/easy/MoveZeroesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvertBinaryTreeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/easy/InvertBinaryTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -158,8 +154,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -393,16 +389,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/hard/LargestRectangleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/test/java/medium/UniqueBinarySearchTreesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java" />
-        <option value="$PROJECT_DIR$/src/test/java/medium/ValidateBinarySearchTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/easy/SameTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/easy/SymmetricTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy/MaximumDepthOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" />
@@ -444,6 +430,16 @@
         <option value="$PROJECT_DIR$/src/test/java/easy/InvertBinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy/PalindromLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/medium/LowestCommonAncestorOfABinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/PerfectSquaresTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/PerfectSquares.java" />
+        <option value="$PROJECT_DIR$/src/main/java/easy/MoveZeros.java" />
+        <option value="$PROJECT_DIR$/src/test/java/easy/MoveZeroesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/FindTheDuplicateNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/FindTheDuplicateNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hard/SerializeAndDeserializeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/test/java/medium/LongestIncreasingSubsequenceTest.java" />
       </list>
     </option>
   </component>
@@ -461,7 +457,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -478,6 +473,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -510,6 +507,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -552,10 +557,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/span/Documents/workspace/leetcode/src/main/java/hard/SerializeAndDeserializeBinaryTree.java" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -566,8 +571,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="easy" />
       <recent name="medium" />
+      <recent name="easy" />
       <recent name="hard" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -593,23 +598,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromLinkedListTest.isPalindrome">
+  <component name="RunManager" selected="JUnit.FindTheDuplicateNumberTest.findDuplicate2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HouseRobberTest.rob1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindTheDuplicateNumberTest.findDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.HouseRobberTest" />
-      <option name="METHOD_NAME" value="rob1" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.FindTheDuplicateNumberTest" />
+      <option name="METHOD_NAME" value="findDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -620,19 +625,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HouseRobberTest.rob3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindTheDuplicateNumberTest.findDuplicate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.HouseRobberTest" />
-      <option name="METHOD_NAME" value="rob3" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.FindTheDuplicateNumberTest" />
+      <option name="METHOD_NAME" value="findDuplicate2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -643,7 +648,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="InvertBinaryTreeTest.invertTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZeroesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
@@ -654,8 +659,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.InvertBinaryTreeTest" />
-      <option name="METHOD_NAME" value="invertTree" />
+      <option name="MAIN_CLASS_NAME" value="easy.MoveZeroesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MoveZeroesTest.moveZeroes1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="easy" />
+      <option name="MAIN_CLASS_NAME" value="easy.MoveZeroesTest" />
+      <option name="METHOD_NAME" value="moveZeroes1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -666,7 +694,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PalindromLinkedListTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZeroesTest.moveZeroes2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <extension name="coverage">
         <pattern>
@@ -677,31 +705,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.PalindromLinkedListTest" />
-      <option name="METHOD_NAME" value="isPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ReverseLinkedListTest.reverseList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="easy" />
-      <option name="MAIN_CLASS_NAME" value="easy.ReverseLinkedListTest" />
-      <option name="METHOD_NAME" value="reverseList" />
+      <option name="MAIN_CLASS_NAME" value="easy.MoveZeroesTest" />
+      <option name="METHOD_NAME" value="moveZeroes2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -892,19 +897,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.HouseRobberTest.rob1" />
-      <item itemvalue="JUnit.HouseRobberTest.rob3" />
-      <item itemvalue="JUnit.ReverseLinkedListTest.reverseList" />
-      <item itemvalue="JUnit.InvertBinaryTreeTest.invertTree" />
-      <item itemvalue="JUnit.PalindromLinkedListTest.isPalindrome" />
+      <item itemvalue="JUnit.MoveZeroesTest.moveZeroes1" />
+      <item itemvalue="JUnit.MoveZeroesTest.moveZeroes2" />
+      <item itemvalue="JUnit.MoveZeroesTest" />
+      <item itemvalue="JUnit.FindTheDuplicateNumberTest.findDuplicate" />
+      <item itemvalue="JUnit.FindTheDuplicateNumberTest.findDuplicate2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromLinkedListTest.isPalindrome" />
-        <item itemvalue="JUnit.InvertBinaryTreeTest.invertTree" />
-        <item itemvalue="JUnit.ReverseLinkedListTest.reverseList" />
-        <item itemvalue="JUnit.HouseRobberTest.rob3" />
-        <item itemvalue="JUnit.HouseRobberTest.rob1" />
+        <item itemvalue="JUnit.FindTheDuplicateNumberTest.findDuplicate2" />
+        <item itemvalue="JUnit.FindTheDuplicateNumberTest.findDuplicate" />
+        <item itemvalue="JUnit.MoveZeroesTest" />
+        <item itemvalue="JUnit.MoveZeroesTest.moveZeroes2" />
+        <item itemvalue="JUnit.MoveZeroesTest.moveZeroes1" />
       </list>
     </recent_temporary>
   </component>
@@ -922,35 +927,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseLinkedListTest_reverseList - 2018.10.05 at 19h 48m 07s.xml">
-      <configuration name="ReverseLinkedListTest.reverseList" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 36m 32s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HouseRobberTest_rob3 - 2018.10.05 at 19h 48m 21s.xml">
-      <configuration name="HouseRobberTest.rob3" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 36m 39s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseLinkedListTest_reverseList - 2018.10.05 at 19h 48m 58s.xml">
-      <configuration name="ReverseLinkedListTest.reverseList" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 36m 45s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseLinkedListTest_reverseList - 2018.10.05 at 19h 49m 33s.xml">
-      <configuration name="ReverseLinkedListTest.reverseList" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 37m 04s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseLinkedListTest_reverseList - 2018.10.05 at 19h 49m 36s.xml">
-      <configuration name="ReverseLinkedListTest.reverseList" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 38m 14s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvertBinaryTreeTest_invertTree - 2018.10.06 at 14h 49m 33s.xml">
-      <configuration name="InvertBinaryTreeTest.invertTree" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 38m 34s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvertBinaryTreeTest_invertTree - 2018.10.06 at 14h 55m 24s.xml">
-      <configuration name="InvertBinaryTreeTest.invertTree" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 38m 47s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromLinkedListTest_isPalindrome - 2018.10.06 at 21h 17m 14s.xml">
-      <configuration name="PalindromLinkedListTest.isPalindrome" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 38m 54s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvertBinaryTreeTest_invertTree - 2018.10.06 at 21h 17m 14s.xml">
-      <configuration name="InvertBinaryTreeTest.invertTree" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate - 2018.10.14 at 15h 38m 57s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromLinkedListTest_isPalindrome - 2018.10.06 at 21h 17m 34s.xml">
-      <configuration name="PalindromLinkedListTest.isPalindrome" configurationId="JUnit" />
+    <history-entry file="FindTheDuplicateNumberTest_findDuplicate2 - 2018.10.14 at 15h 39m 28s.xml">
+      <configuration name="FindTheDuplicateNumberTest.findDuplicate2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -974,18 +979,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24668631" side_tool="true" weight="0.44728917" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7533137" weight="0.44728917" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7533137" visible="true" weight="0.44728917" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32831326" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26362297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2820324" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8394698" visible="true" weight="0.20481928" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8394698" weight="0.44277108" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1002,12 +1007,12 @@
       <window_info anchor="right" id="Gradle" order="6" weight="0.3298969" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31174698" />
       <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32946298" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1018,7 +1023,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32680723" />
@@ -1752,8 +1757,32 @@
           <properties />
           <option name="timeStamp" value="377" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/PerfectSquares.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="378" />
+      <option name="time" value="408" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1806,73 +1835,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/javax/swing/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hard/LargestRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/UniqueBinarySearchTreesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/UniqueBinarySearchTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/medium/ValidateBinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/medium/ValidateBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy/SameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy/MaximumDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/ConstructBinaryTreeFromPreorderAndInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1933,13 +1895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -2016,9 +1971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2037,9 +1989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="26" column="43" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2098,13 +2047,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module/Trie.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/MaximalSquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -2116,10 +2059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2127,24 +2066,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
+          <caret line="6" selection-start-line="6" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2164,11 +2092,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/easy/InvertBinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2179,27 +2104,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy/PalindromLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/BinaryTreeInorderTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="525">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2215,11 +2130,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/medium/LowestCommonAncestorOfABinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="675">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/PerfectSquaresTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/PerfectSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/easy/PalindromLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/easy/MoveZeroesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/easy/MoveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/FindTheDuplicateNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/FindTheDuplicateNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hard/SerializeAndDeserializeBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/medium/LongestIncreasingSubsequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
