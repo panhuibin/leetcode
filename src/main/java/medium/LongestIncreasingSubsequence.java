@@ -15,14 +15,13 @@ class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         int maxLength = 1;
         int currentIndex = 1;
+
         if (nums.length == 0) return 0;
         if (nums.length == 1) return 1;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] > nums[i + 1]) {
-                currentIndex++;
-            } else {
-                maxLength = Math.max(maxLength, currentIndex);
-                currentIndex = 1;
+
+        for (int i = 0; i < nums.length; i++) {
+            for(int j=i+1;j<nums.length;j++){
+
             }
         }
         return maxLength;
